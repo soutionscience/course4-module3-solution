@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #89DA59;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #FF420E;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.row{
+  width: 100%;
+  }
+
+.box{
+  position: relative;
+  background-color: #80BD9E;
+  border: solid 2px black;
+  margin: 4px;
+
+}
+.lable{
+  border-bottom: solid 2px black;
+  border-left: solid 2px black;
+  position: absolute;
+  right: 0;
+  top:0;
+  
+  padding-left: 5px;
+  
+}
+.chicken{
+  background-color: pink;
+}
+.beef{
+  background-color: red;
+}
+.sushi{
+  background-color: yellow;
+}
+section{
+  margin-top: 30px;
+  text-align: left;
+
+}
+p{
+  margin-right: auto;
+    margin-left: auto;
+}
+h1{
+  text-align: center;
+}
+
+@media(min-width: 992px){
+.box1, .box2, .box3{
+  float: left;
+
+}
+.box1{
+  width: 32.33%;
+}
+.box2{
+  width: 32.33%;
+}
+.box3{
+  width: 32.33%;
+}
+}
+@media(min-width: 768px) and (max-width:991px){
+  .box1, .box2, .box3 {
+  float: left;
+}
+.box1{
+  width: 48%;
+}
+.box2{
+  width: 48%;
+}
+.box3{
+  width: 97%;
+}
+
+}
